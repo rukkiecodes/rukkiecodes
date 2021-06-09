@@ -3,13 +3,22 @@
 </template>
 
 <script>
-  import HelloWorld from '../components/HelloWorld'
+import { mapMutations } from "vuex";
+import HelloWorld from "../components/HelloWorld";
 
-  export default {
-    name: 'Home',
+export default {
+  name: "Home",
 
-    components: {
-      HelloWorld,
-    },
-  }
+  components: {
+    HelloWorld,
+  },
+
+  mounted() {
+    this.active_route();
+  },
+
+  methods: {
+    ...mapMutations(["active_route"]),
+  },
+};
 </script>

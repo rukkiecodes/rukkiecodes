@@ -24,6 +24,6 @@ export default {
 
 <style>
 *{
-  font-family: 'victor mono';
+  font-family: 'victor mono' !important;
 }
 </style>
