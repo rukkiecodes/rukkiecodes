@@ -1,0 +1,9 @@
+.intro {
+    height: 93vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    .intro_text {
+        max-width: 300px;
+    }
+}

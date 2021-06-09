@@ -21,9 +21,3 @@ export default {
   }
 };
 </script>
-
-<style>
-*{
-  font-family: 'victor mono' !important;
-}
-</style>

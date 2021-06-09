@@ -1,17 +1,17 @@
 <template>
-  <v-app-bar class="px-12 app_bar" app color="white" dark flat dense>
+  <v-app-bar class="app_bar" app color="white" flat dense>
     <div>
-      <p class="mt-4 text-h5 black--text font-weight-medium">
+      <p class="mt-4 text-h5 grey--text text--darken-4 font-weight-medium">
         .rukkie<span class="deep-purple--text text--accent-4">()</span>
       </p>
     </div>
-    <div class="d-flex ml-12">
+    <div class="d-flex ml-15">
       <router-link
         to="/"
         :class="{
           'deep-purple--text text--accent-4': current_path == '/',
         }"
-        class="link mr-5 font-weight-bold text-body-1"
+        class="link mr-10 ml-15 font-weight-bold text-body-1"
         >.rukkie()</router-link
       >
       <router-link
@@ -19,7 +19,7 @@
         :class="{
           'deep-purple--text text--accent-4': current_path == '/work',
         }"
-        class="link mr-5 font-weight-bold text-body-1"
+        class="link mr-10 font-weight-bold text-body-1"
         >.work()</router-link
       >
       <router-link
@@ -27,7 +27,7 @@
         :class="{
           'deep-purple--text text--accent-4': current_path == '/about',
         }"
-        class="link mr-5 font-weight-bold text-body-1"
+        class="link mr-10 font-weight-bold text-body-1"
         >.about()</router-link
       >
       <router-link
@@ -82,9 +82,11 @@ export default {
 </script>
 
 <style scoped>
+.app_bar {
+  padding: 1em 5em !important;
+}
 .app_bar a {
   text-decoration: none;
-  font-family: "victor mono" !important;
   color: #455a64;
 }
 
