@@ -1,5 +1,5 @@
 
-![Logo](https://res.cloudinary.com/rukkiecodes/image/upload/v1675886553/Capture_ud7tqm.png)
+![Logo](https://res.cloudinary.com/rukkiecodes/image/upload/v1675886712/Capture_i9nfms.png)
 
 # rukkiecodes
 
