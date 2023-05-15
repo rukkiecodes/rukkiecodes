@@ -3,8 +3,6 @@
 
 # rukkiecodes
 
-wanlainjoblog-production.up.railway.app
-
 ## Project setup
 ```
 npm install
