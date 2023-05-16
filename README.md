@@ -1,7 +1,7 @@
 
 ![Logo](https://res.cloudinary.com/rukkiecodes/image/upload/v1675886712/Capture_i9nfms.png)
 
-# rukkiecodes
+# rukkiecodes凉
 
 ## Project setup
 ```
